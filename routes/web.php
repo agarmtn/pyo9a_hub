@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('uno');
 });
+
+Route::get('/', function () {
+    return view('dos');
+});
