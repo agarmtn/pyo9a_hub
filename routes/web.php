@@ -13,3 +13,7 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('dos');
 });
+
+Route::get('/', function () {
+    return view('tres');
+});
